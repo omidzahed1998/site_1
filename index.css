@@ -1,0 +1,138 @@
+
+#box_1{
+    width: 100%;
+    height: 600px;
+    background: #290000;
+    position: relative;
+}
+
+#top_menu{
+      height: 40px;
+    width: 80%;
+    left: 10%;
+    color: aliceblue;
+    position: absolute;
+    top: 5%;
+
+}
+
+#top_menu_ul{
+    display: inline;
+    float: right;
+    
+}
+
+.top_menu_li{
+        display: inline;
+    margin: 0%;
+    float: right;
+    padding: 10px;
+    
+    
+}
+
+#h1_name_site{
+    font-size: 40px;
+        display: inline;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.top_menu_li:hover{background: #76c38f;
+    border-radius: 7px;
+transition: background 0.75s,border-radius 0.5s;
+
+}
+
+#h1_slider{
+        margin-left: 7%;
+
+    color: whitesmoke;
+    max-width: 410px;
+        text-shadow: 1px 1px 10px #ff004c;
+}
+#p_slider{
+        margin-left: 7%;
+
+    color: whitesmoke;
+    max-width: 425px;
+    font-weight: bold;
+    text-shadow: 1px 1px 12px #ff14b1;
+    
+}
+#more_slider{
+    margin-left: 7%;
+    text-decoration: none;
+    background: #81C784;
+    padding: 10px;
+    margin-top: 7px;
+    display: inline-block;
+    border-radius: 7px;
+    border: 2px solid;
+    color: whitesmoke;
+    box-shadow: 0px 0px 19px #d25b5b;
+}
+
+
+
+
+
+
+
+
+#slider{
+       
+    position:  absolute;
+    width: 80%;
+    height: 60%;
+    top: 25%;
+    left: 10%;
+ 
+    
+}
+
+.btn_next_slider{
+        
+    text-decoration: none;
+    position: absolute;
+    top: 53%;
+    
+    width: 20px;
+    height: 25px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+#btn_next_slider_l{left: 7%;
+background: url("img/next_l.png");
+    background-repeat: round;
+}
+#btn_next_slider_r{right: 7%;
+background: url("img/next_r.png");
+    background-repeat: round;
+}
+.btn_next_slider:hover{width: 25px;
+height: 30px; box-shadow: 1px 1px 10px #333333;
+}
+
+
+#div_img_slider{    right: 4%;
+    position: absolute;
+background: url(img/aa.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 190px;
+    top: 7%;
+    box-shadow: 0px 0px 24px #ff01a6;
+    border: 14px solid #333333;
+    background-repeat: round;
+
+}
+
+
+
+
+
+
+
+
+
